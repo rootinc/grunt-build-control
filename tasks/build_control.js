@@ -16,7 +16,7 @@ module.exports = function (grunt) {
   var url = require('url');
   var semver = require('semver');
 
-  grunt.registerMultiTask('buildcontrol', 'Version control built code.', function() {
+  grunt.registerMultiTask('build-control', 'Version control built code.', function() {
 
     var done = this.async();
     var gruntDir = shelljs.pwd();
